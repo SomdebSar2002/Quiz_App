@@ -11,7 +11,7 @@
     "react": "19.2.3",
     "react-dom": "19.2.3",
     "he": "1.2.0",
-    "vite": "latest"
+    "vite": "latest",
     "clsx": "2.1.1",
   },
   "devDependencies": {
