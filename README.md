@@ -43,7 +43,7 @@ Users can attempt the quiz, check their answers, see their score, and instantly 
 ## 🔗 Live Demo
 
 🚀 **Try the quiz live here:**  
-👉 https://your-app-name.netlify.app
+👉 [https://your-app-name.netlify.app](https://scintillating-daifuku-d69602.netlify.app/)
 
 ---
 ## 📦 Installation & Setup
