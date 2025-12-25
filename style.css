@@ -1,0 +1,1099 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Karla", sans-serif;
+    background: #F5F7FB;
+    
+}
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25vh;
+    
+}
+h1{
+    font-weight: 700;font-style: Bold;font-size: 31.25px;text-align: center;
+    margin-bottom: 0;
+}
+p{
+    margin-bottom: 2rem;
+}
+button#game-start{
+    width: 193px;height: 52px;border-radius: 15px;
+    background-color: #4D5B9E;color:#F5F7FB;
+    font-family: Inter;font-weight: 500;font-size: 16px;leading-trim: NONE;line-height: 100%;letter-spacing: 0%;text-align: center;
+    cursor: pointer;
+}
+.blob1 {
+    position: absolute;
+    width: 297px;
+    height: 235px;
+    /* transform: rotate(-128.49deg); */
+    top:0vh;
+    left: 70vw;
+
+}
+#questions{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
+.blob2 {
+    /* blobs */
+
+    position: absolute;
+    width: 297px;
+    height: 235px;
+    top:80vh;
+    left:0vw;
+}
+form{
+    text-align: left;
+    display: flex;
+    justify-content: left;
+    gap:1.5em;
+}
+.questions{
+    
+    display: flex;
+    flex-direction: column;
+    margin-left: 2rem;
+}
+.questions>p{
+    color:#293264;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5em;
+    font-family: Karla;font-weight: 700;font-style: Bold;font-size: 16px;line-height: 100%;letter-spacing: 0%;
+    }
+hr{
+    width:80vw;
+    margin-left: 0;
+    margin-bottom: 0;
+}
+label{
+  color: #293264;
+}
+input[type="radio"] {
+  opacity: 0;
+  position: fixed;
+  width: 0;
+  font-family: Inter;font-weight: 500;font-size: 10.24px;leading-trim: NONE;line-height: 100%;letter-spacing: 0%;text-align: center;
+}
+ label {
+    display: inline-block;
+    padding: 4.02px 15.75px;
+    border: 0.79px solid #4D5B9E;
+    border-radius: 7.94px;
+    cursor: pointer;
+}
+/* input[type="radio"].checku:focus + label {
+    border: none;   
+    background-color: #D6DBF5;
+} */
+ /* label:focus{
+    background-color:#D6DBF5;
+    
+ } */
+ label.checku:hover {
+  background-color: #e8eaf4;
+}
+label.checku{
+    background-color:#D6DBF5;
+    border: none;
+}
+/* input[type="radio"].checku {
+    background-color: #D6DBF5;
+    /* border-color: none; 
+}*/
+.showCorrect{
+    background: #94D7A2;
+    border: none;
+    color:#293264 !important;
+}
+.showWrong{
+    background: #F8BCBC;
+    border:none;
+}
+.didi{
+    cursor: not-allowed;   
+    border: 0.79px solid #4D5B9E;
+    font-family: Inter;font-weight: 500;text-align: center;
+    color:#918e9b;
+}
+p.score{
+    font-family: Inter;font-weight: 700;font-size: 12.8px;leading-trim: NONE;line-height: 100%;letter-spacing: 0%;text-align: center;
+    margin-top: 30px;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:25px;
+}
+button.submit{
+    width: 120px;height: 35px;border-radius: 10px;
+    background: #4D5B9E;
+    font-family: Inter;font-weight: 600;font-style: Semi Bold;font-size: 10.24px;leading-trim: NONE;line-height: 100%;letter-spacing: 0%;text-align: center;
+    color: #F5F7FB;
+    cursor: pointer;
+    margin-top: 20px;
+}
+.resz{
+    width:104px !important;
+    height: 30px !important;
+    margin-top: 0px !important;
+}
+.blob4{
+    /* blobs */
+
+position: absolute;
+width: 297px;
+height: 235px;
+left: 85vw;
+top: -25vh;
+z-index:-1;
+transform: rotate(-128.49deg);
+
+}
+.blob3{
+    /* blobs */
+
+position: absolute;
+width: 201px;
+height: 142px;
+left: -20vw;
+top: 85vh;
+z-index:-1;
+
+}
+/* Group 106 */
+/*
+position: absolute;
+width: 307px;
+height: 51.63px;
+left: 75px;
+top: 40px;
+
+
+
+header/nav
+
+position: absolute;
+width: 307px;
+height: 19px;
+left: 75px;
+top: 40px;
+
+
+
+
+
+
+
+/* Group 145 */
+
+position: absolute;
+width: 65.92px;
+height: 20.65px;
+left: 75px;
+top: 70.98px;
+
+
+
+/* Rectangle 76 */
+
+position: absolute;
+width: 65.92px;
+height: 20.65px;
+left: 75px;
+top: 70.98px;
+
+background: #D6DBF5;
+border-radius: 7.94239px;
+
+
+/* Adiós */
+
+position: absolute;
+width: 28px;
+height: 12px;
+left: 94.11px;
+top: 75px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 10.24px;
+line-height: 12px;
+text-align: center;
+
+color: #293264;
+
+
+
+/* Group 146 */
+
+position: absolute;
+width: 65.92px;
+height: 20.65px;
+left: 153.63px;
+top: 70.98px;
+
+
+
+/* Rectangle 65 */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 65.92px;
+height: 20.65px;
+left: 153.63px;
+top: 70.98px;
+
+border: 0.794239px solid #4D5B9E;
+border-radius: 7.94239px;
+
+
+/* Hola */
+
+position: absolute;
+width: 35px;
+height: 13px;
+left: 169.38px;
+top: 75px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 10.24px;
+line-height: 12px;
+/* identical to box height */
+text-align: center;
+
+color: #293264;
+
+
+
+/* Group 147 */
+
+position: absolute;
+width: 65.92px;
+height: 20.65px;
+left: 232.26px;
+top: 70.98px;
+
+
+
+/* Rectangle 66 */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 65.92px;
+height: 20.65px;
+left: 232.26px;
+top: 70.98px;
+
+border: 0.794239px solid #4D5B9E;
+border-radius: 7.94239px;
+
+
+/* Au Revoir */
+
+position: absolute;
+width: 58.77px;
+height: 12.71px;
+left: 236.23px;
+top: 74.95px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 10.24px;
+line-height: 12px;
+/* identical to box height */
+text-align: center;
+
+color: #293264;
+
+
+
+/* Group 148 */
+
+position: absolute;
+width: 65.92px;
+height: 20.65px;
+left: 310.89px;
+top: 70.98px;
+
+
+
+/* Rectangle 67 */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 65.92px;
+height: 20.65px;
+left: 310.89px;
+top: 70.98px;
+
+border: 0.794239px solid #4D5B9E;
+border-radius: 7.94239px;
+
+
+/* Salir */
+
+position: absolute;
+width: 58.77px;
+height: 12.71px;
+left: 314.86px;
+top: 74.95px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 10.24px;
+line-height: 12px;
+/* identical to box height */
+text-align: center;
+
+color: #293264;
+
+
+
+/* header/nav */
+
+position: absolute;
+width: 362px;
+height: 19px;
+left: 75.38px;
+top: 221px;
+
+
+
+/* What is the hottest planet in our Solar System? */
+
+position: absolute;
+width: 362px;
+height: 19px;
+left: 75.38px;
+top: 221px;
+
+font-family: 'Karla';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 19px;
+/* identical to box height */
+
+color: #293264;
+
+
+
+/* Group 152 */
+
+position: absolute;
+width: 65.92px;
+height: 20.65px;
+left: 153.63px;
+top: 252.44px;
+
+
+
+/* Rectangle 65 */
+
+position: absolute;
+width: 65.92px;
+height: 20.65px;
+left: 153.63px;
+top: 252.44px;
+
+background: #D6DBF5;
+border-radius: 7.94239px;
+
+
+/* Venus */
+
+position: absolute;
+width: 58.77px;
+height: 12.71px;
+left: 157.6px;
+top: 256.41px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 10.24px;
+line-height: 12px;
+/* identical to box height */
+text-align: center;
+
+color: #293264;
+
+
+
+/* Group 153 */
+
+position: absolute;
+width: 65.92px;
+height: 20.65px;
+left: 232.26px;
+top: 252.44px;
+
+
+
+/* Rectangle 66 */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 65.92px;
+height: 20.65px;
+left: 232.26px;
+top: 252.44px;
+
+border: 0.794239px solid #4D5B9E;
+border-radius: 7.94239px;
+
+
+/* Mars */
+
+position: absolute;
+width: 58.77px;
+height: 12.71px;
+left: 236.23px;
+top: 256.41px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 10.24px;
+line-height: 12px;
+/* identical to box height */
+text-align: center;
+
+color: #293264;
+
+
+
+/* Group 155 */
+
+position: absolute;
+width: 65.92px;
+height: 20.65px;
+left: 75px;
+top: 252px;
+
+
+
+/* Rectangle 66 */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 65.92px;
+height: 20.65px;
+left: 75px;
+top: 252px;
+
+border: 0.794239px solid #4D5B9E;
+border-radius: 7.94239px;
+
+
+/* Mercury */
+
+position: absolute;
+width: 58.77px;
+height: 12.71px;
+left: 78.97px;
+top: 255.97px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 10.24px;
+line-height: 12px;
+/* identical to box height */
+text-align: center;
+
+color: #293264;
+
+
+
+/* Group 154 */
+
+position: absolute;
+width: 65.92px;
+height: 20.65px;
+left: 310.89px;
+top: 252.44px;
+
+
+
+/* Rectangle 67 */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 65.92px;
+height: 20.65px;
+left: 310.89px;
+top: 252.44px;
+
+border: 0.794239px solid #4D5B9E;
+border-radius: 7.94239px;
+
+
+/* Saturn */
+
+position: absolute;
+width: 58.77px;
+height: 12.71px;
+left: 314.86px;
+top: 256.41px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 10.24px;
+line-height: 12px;
+/* identical to box height */
+text-align: center;
+
+color: #293264;
+
+
+
+/* Group 110 */
+
+position: absolute;
+width: 315px;
+height: 50.65px;
+left: 71.38px;
+top: 404px;
+
+
+
+/* header/nav */
+
+position: absolute;
+width: 315px;
+height: 19px;
+left: 71.38px;
+top: 404px;
+
+
+
+/* How Many Hearts Does An Octopus Have? */
+
+position: absolute;
+width: 315px;
+height: 19px;
+left: 71.38px;
+top: 404px;
+
+font-family: 'Karla';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 19px;
+/* identical to box height */
+text-align: center;
+
+color: #293264;
+
+
+
+/* Group 155 */
+
+position: absolute;
+width: 65.92px;
+height: 20.65px;
+left: 233px;
+top: 434px;
+
+
+
+/* Rectangle 76 */
+
+position: absolute;
+width: 65.92px;
+height: 20.65px;
+left: 233px;
+top: 434px;
+
+background: #D6DBF5;
+border-radius: 7.94239px;
+
+
+/* Three */
+
+position: absolute;
+width: 29px;
+height: 12px;
+left: 252.11px;
+top: 438.02px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 10.24px;
+line-height: 12px;
+text-align: center;
+
+color: #293264;
+
+
+
+/* Group 156 */
+
+position: absolute;
+width: 65.92px;
+height: 20.65px;
+left: 154px;
+top: 433.98px;
+
+
+
+/* Rectangle 65 */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 65.92px;
+height: 20.65px;
+left: 154px;
+top: 433.98px;
+
+border: 0.794239px solid #4D5B9E;
+border-radius: 7.94239px;
+
+
+/* Two */
+
+position: absolute;
+width: 58.77px;
+height: 12.71px;
+left: 157.97px;
+top: 437.95px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 10.24px;
+line-height: 12px;
+/* identical to box height */
+text-align: center;
+
+color: #293264;
+
+
+
+/* Group 157 */
+
+position: absolute;
+width: 65.92px;
+height: 20.65px;
+left: 75px;
+top: 434px;
+
+
+
+/* Rectangle 66 */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 65.92px;
+height: 20.65px;
+left: 75px;
+top: 434px;
+
+border: 0.794239px solid #4D5B9E;
+border-radius: 7.94239px;
+
+
+/* One */
+
+position: absolute;
+width: 58.77px;
+height: 12.71px;
+left: 78.97px;
+top: 437.97px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 10.24px;
+line-height: 12px;
+/* identical to box height */
+text-align: center;
+
+color: #293264;
+
+
+
+/* Group 158 */
+
+position: absolute;
+width: 65.92px;
+height: 20.65px;
+left: 312px;
+top: 433.98px;
+
+
+
+/* Rectangle 67 */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 65.92px;
+height: 20.65px;
+left: 312px;
+top: 433.98px;
+
+border: 0.794239px solid #4D5B9E;
+border-radius: 7.94239px;
+
+
+/* Four */
+
+position: absolute;
+width: 58.77px;
+height: 12.71px;
+left: 315.97px;
+top: 437.95px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 10.24px;
+line-height: 12px;
+/* identical to box height */
+text-align: center;
+
+color: #293264;
+
+
+
+/* header/nav */
+
+position: absolute;
+width: 351.05px;
+height: 35.74px;
+left: 75px;
+top: 121.63px;
+
+
+
+/* Which best selling toy of 1983 caused hysteria, resulting in riots breaking in stores? */
+
+position: absolute;
+width: 351.05px;
+height: 35.74px;
+left: 75px;
+top: 121.63px;
+
+font-family: 'Karla';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 19px;
+
+color: #293264;
+
+
+
+/* Group 98 */
+
+position: absolute;
+width: 120.06px;
+height: 20.05px;
+left: 75px;
+top: 170.46px;
+
+
+
+/* Group 149 */
+
+position: absolute;
+width: 120.06px;
+height: 20.05px;
+left: 75px;
+top: 170.46px;
+
+
+
+/* Rectangle 68 */
+
+position: absolute;
+width: 120.06px;
+height: 20.05px;
+left: 75px;
+top: 170.46px;
+
+background: #D6DBF5;
+border-radius: 7.71045px;
+
+
+/* Cabbage Patch Kids */
+
+position: absolute;
+width: 104px;
+height: 13px;
+left: 83px;
+top: 174.06px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 10.24px;
+line-height: 12px;
+/* identical to box height */
+text-align: center;
+
+color: #293264;
+
+
+
+/* Group 95 */
+
+position: absolute;
+width: 87px;
+height: 20px;
+left: 208px;
+top: 171.46px;
+
+
+
+/* Group 150 */
+
+position: absolute;
+width: 87px;
+height: 20px;
+left: 208px;
+top: 171.46px;
+
+
+
+/* Rectangle 69 */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 87px;
+height: 20px;
+left: 208px;
+top: 171.46px;
+
+border: 0.771045px solid #4D5B9E;
+border-radius: 7.71045px;
+
+
+/* Transformers */
+
+position: absolute;
+width: 70px;
+height: 13px;
+left: 217px;
+top: 174.46px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 10.24px;
+line-height: 12px;
+/* identical to box height */
+text-align: center;
+
+color: #293264;
+
+
+
+/* Group 99 */
+
+position: absolute;
+width: 72px;
+height: 20px;
+left: 308px;
+top: 170.46px;
+
+
+
+/* Rectangle 70 */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 72px;
+height: 20px;
+left: 308px;
+top: 170.46px;
+
+border: 0.771045px solid #4D5B9E;
+border-radius: 7.71045px;
+
+
+/* Care Bears */
+
+position: absolute;
+width: 63px;
+height: 13px;
+left: 312px;
+top: 174.46px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 10.24px;
+line-height: 12px;
+/* identical to box height */
+text-align: center;
+
+color: #293264;
+
+
+
+/* Group 101 */
+
+position: absolute;
+width: 81px;
+height: 20px;
+left: 393px;
+top: 170.46px;
+
+
+
+/* Rectangle 71 */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 81px;
+height: 20px;
+left: 393px;
+top: 170.46px;
+
+border: 0.771045px solid #4D5B9E;
+border-radius: 7.71045px;
+
+
+/* Rubik’s Cube */
+
+position: absolute;
+width: 63px;
+height: 13px;
+left: 402px;
+top: 174.46px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 10.24px;
+line-height: 12px;
+/* identical to box height */
+text-align: center;
+
+color: #293264;
+
+
+
+/* Group 109 */
+
+position: absolute;
+width: 351.05px;
+height: 69.91px;
+left: 75px;
+top: 303.09px;
+
+
+
+/* header/nav */
+
+position: absolute;
+width: 351.05px;
+height: 35.74px;
+left: 75px;
+top: 303.09px;
+
+
+
+/* In which country was the caesar salad invented? */
+
+position: absolute;
+width: 351.05px;
+height: 35.74px;
+left: 75px;
+top: 303.09px;
+
+font-family: 'Karla';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 19px;
+
+…
+/* Line 14 */
+
+position: absolute;
+width: 399px;
+height: 0px;
+left: 75px;
+top: 388px;
+
+border: 0.794239px solid #DBDEF0;
+
+
+/* Line 15 */
+
+position: absolute;
+width: 399px;
+height: 0px;
+left: 75px;
+top: 470px;
+
+border: 0.794239px solid #DBDEF0;
+
+
+/* Rectangle 65 */
+
+position: absolute;
+width: 120px;
+height: 35px;
+left: 215px;
+top: 490px;
+
+background: #4D5B9E;
+border-radius: 10px;
+
+
+/* Check answers */
+
+position: absolute;
+width: 77px;
+height: 14px;
+left: 237px;
+top: 501px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 10.24px;
+line-height: 12px;
+text-align: center;
+
+color: #F5F7FB;
+
+*/
