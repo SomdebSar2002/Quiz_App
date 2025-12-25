@@ -1,6 +1,8 @@
 import React from 'react'
 import he from 'he'
 import clsx from 'clsx'
+import blob1 from "./blob_1.png"
+import blob2 from "./blob_2.png"
 export default function Quiz() {
     const [quiz, setquiz] = React.useState([])
     const [button, setbutton] = React.useState(0)
@@ -53,8 +55,8 @@ export default function Quiz() {
     return (
         <div key="oioo" className="Quiz group">
             <div className="questions">
-                 <img className="blob3" src="./blob_1.png"/>
-                            <img className="blob4" src="./blob_2.png"/>
+                 <img className="blob3" src={blob1}/>
+                            <img className="blob4" src={blob2}/>
                 {answer.map((group, i) => {
                     return (
                         <>
